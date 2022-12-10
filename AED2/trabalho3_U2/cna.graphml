@@ -1,0 +1,179 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d2" for="edge" attr.name="contraction" attr.type="long" />
+  <key id="d1" for="node" attr.name="class" attr.type="long" />
+  <key id="d0" for="node" attr.name="contraction" attr.type="long" />
+  <graph edgedefault="directed">
+    <node id="Carnaubais">
+      <data key="d0">0</data>
+      <data key="d1">10</data>
+    </node>
+    <node id="Regions Of Brazil">
+      <data key="d0">0</data>
+      <data key="d1">138</data>
+    </node>
+    <node id="States Of Brazil">
+      <data key="d0">0</data>
+      <data key="d1">140</data>
+    </node>
+    <node id="Flag Of Carnaubais">
+      <data key="d0">0</data>
+      <data key="d1">9</data>
+    </node>
+    <node id="Geographic Coordinate System">
+      <data key="d0">0</data>
+      <data key="d1">6</data>
+    </node>
+    <node id="Municipalities Of Brazil">
+      <data key="d0">0</data>
+      <data key="d1">104</data>
+    </node>
+    <node id="Northeast Region, Brazil">
+      <data key="d0">0</data>
+      <data key="d1">142</data>
+    </node>
+    <node id="Rio Grande Do Norte">
+      <data key="d0">0</data>
+      <data key="d1">142</data>
+    </node>
+    <node id="Brazil">
+      <data key="d0">0</data>
+      <data key="d1">144</data>
+    </node>
+    <edge source="Carnaubais" target="Brazil">
+      <data key="d2">0</data>
+    </edge>
+    <edge source="Carnaubais" target="Flag Of Carnaubais">
+      <data key="d2">0</data>
+    </edge>
+    <edge source="Carnaubais" target="Geographic Coordinate System">
+      <data key="d2">0</data>
+    </edge>
+    <edge source="Carnaubais" target="Municipalities Of Brazil">
+      <data key="d2">0</data>
+    </edge>
+    <edge source="Carnaubais" target="Northeast Region, Brazil">
+      <data key="d2">0</data>
+    </edge>
+    <edge source="Carnaubais" target="Regions Of Brazil">
+      <data key="d2">0</data>
+    </edge>
+    <edge source="Carnaubais" target="Rio Grande Do Norte">
+      <data key="d2">0</data>
+    </edge>
+    <edge source="Carnaubais" target="States Of Brazil">
+      <data key="d2">0</data>
+    </edge>
+    <edge source="Regions Of Brazil" target="Brazil">
+      <data key="d2">0</data>
+    </edge>
+    <edge source="Regions Of Brazil" target="Northeast Region, Brazil">
+      <data key="d2">0</data>
+    </edge>
+    <edge source="Regions Of Brazil" target="Rio Grande Do Norte">
+      <data key="d2">0</data>
+    </edge>
+    <edge source="States Of Brazil" target="Brazil">
+      <data key="d2">0</data>
+    </edge>
+    <edge source="States Of Brazil" target="Municipalities Of Brazil">
+      <data key="d2">0</data>
+    </edge>
+    <edge source="States Of Brazil" target="Northeast Region, Brazil">
+      <data key="d2">0</data>
+    </edge>
+    <edge source="States Of Brazil" target="Regions Of Brazil">
+      <data key="d2">0</data>
+    </edge>
+    <edge source="States Of Brazil" target="Rio Grande Do Norte">
+      <data key="d2">0</data>
+    </edge>
+    <edge source="Flag Of Carnaubais" target="Brazil">
+      <data key="d2">0</data>
+    </edge>
+    <edge source="Flag Of Carnaubais" target="Geographic Coordinate System">
+      <data key="d2">0</data>
+    </edge>
+    <edge source="Flag Of Carnaubais" target="Municipalities Of Brazil">
+      <data key="d2">0</data>
+    </edge>
+    <edge source="Flag Of Carnaubais" target="Northeast Region, Brazil">
+      <data key="d2">0</data>
+    </edge>
+    <edge source="Flag Of Carnaubais" target="Regions Of Brazil">
+      <data key="d2">0</data>
+    </edge>
+    <edge source="Flag Of Carnaubais" target="Rio Grande Do Norte">
+      <data key="d2">0</data>
+    </edge>
+    <edge source="Flag Of Carnaubais" target="States Of Brazil">
+      <data key="d2">0</data>
+    </edge>
+    <edge source="Geographic Coordinate System" target="Brazil">
+      <data key="d2">0</data>
+    </edge>
+    <edge source="Municipalities Of Brazil" target="Brazil">
+      <data key="d2">0</data>
+    </edge>
+    <edge source="Municipalities Of Brazil" target="Regions Of Brazil">
+      <data key="d2">0</data>
+    </edge>
+    <edge source="Municipalities Of Brazil" target="States Of Brazil">
+      <data key="d2">0</data>
+    </edge>
+    <edge source="Northeast Region, Brazil" target="Brazil">
+      <data key="d2">0</data>
+    </edge>
+    <edge source="Northeast Region, Brazil" target="Geographic Coordinate System">
+      <data key="d2">0</data>
+    </edge>
+    <edge source="Northeast Region, Brazil" target="Municipalities Of Brazil">
+      <data key="d2">0</data>
+    </edge>
+    <edge source="Northeast Region, Brazil" target="Regions Of Brazil">
+      <data key="d2">0</data>
+    </edge>
+    <edge source="Northeast Region, Brazil" target="Rio Grande Do Norte">
+      <data key="d2">0</data>
+    </edge>
+    <edge source="Northeast Region, Brazil" target="States Of Brazil">
+      <data key="d2">0</data>
+    </edge>
+    <edge source="Rio Grande Do Norte" target="Brazil">
+      <data key="d2">0</data>
+    </edge>
+    <edge source="Rio Grande Do Norte" target="Carnaubais">
+      <data key="d2">0</data>
+    </edge>
+    <edge source="Rio Grande Do Norte" target="Geographic Coordinate System">
+      <data key="d2">0</data>
+    </edge>
+    <edge source="Rio Grande Do Norte" target="Northeast Region, Brazil">
+      <data key="d2">0</data>
+    </edge>
+    <edge source="Rio Grande Do Norte" target="Regions Of Brazil">
+      <data key="d2">0</data>
+    </edge>
+    <edge source="Rio Grande Do Norte" target="States Of Brazil">
+      <data key="d2">0</data>
+    </edge>
+    <edge source="Brazil" target="Geographic Coordinate System">
+      <data key="d2">0</data>
+    </edge>
+    <edge source="Brazil" target="Municipalities Of Brazil">
+      <data key="d2">0</data>
+    </edge>
+    <edge source="Brazil" target="Northeast Region, Brazil">
+      <data key="d2">0</data>
+    </edge>
+    <edge source="Brazil" target="Regions Of Brazil">
+      <data key="d2">0</data>
+    </edge>
+    <edge source="Brazil" target="Rio Grande Do Norte">
+      <data key="d2">0</data>
+    </edge>
+    <edge source="Brazil" target="States Of Brazil">
+      <data key="d2">0</data>
+    </edge>
+  </graph>
+</graphml>
