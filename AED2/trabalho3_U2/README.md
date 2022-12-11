@@ -16,4 +16,4 @@ Para rodar o arquivo ```atividade3U2.ipynb``` temos 2 opções:
 
 ### Video do Projeto
 
-Para a Atividade, produzimos um video para descrever os resultados obtidos em nossos estudos e como ele foi realizado.Para acessar o video, basta clicar [aqui]()
+Para a Atividade, produzimos um video para descrever os resultados obtidos em nossos estudos e como ele foi realizado.Para acessar o video, basta clicar [aqui](https://drive.google.com/file/d/1F-gvBDnlAqdj57dAySGQRvHpFpePPI1O/view)
