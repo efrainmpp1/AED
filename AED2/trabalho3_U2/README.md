@@ -20,11 +20,11 @@ Para a atividade, produzimos um video para descrever os resultados obtidos em no
 
 ## Breve descrição do projeto e dos resultados
 
-O objetivo deste projeto é gerar uma rede dirigida a partir de links das páginas da wikipedia. A página que escolhemos, foi a página de [carnabauis](https://pt.wikipedia.org/wiki/Carnaubais), que é um município do interior do estado do Rio Grande do Norte. A página escolhida (assim como todas as outras na wikipedia) referenciam/citam outras páginas, e com isso, pode-se gerar um ==*grafo dirigido*== a partir desses links das páginas. 
+O objetivo deste projeto é gerar uma rede dirigida a partir de links das páginas da wikipedia. A página que escolhemos, foi a página de [carnabauis](https://pt.wikipedia.org/wiki/Carnaubais), que é um município do interior do estado do Rio Grande do Norte. A página escolhida (assim como todas as outras na wikipedia) referenciam/citam outras páginas, e com isso, pode-se gerar um *grafo dirigido* a partir desses links das páginas. 
 
 ### Requisito 1
 ---
-A rede que geramos se limita a ==duas camadas=== de profundidade, ou seja, a primeira camada é a própria página de [carnabauis](https://pt.wikipedia.org/wiki/Carnaubais) e a segunda camada são as páginas que a página de [carnabauis](https://pt.wikipedia.org/wiki/Carnaubais) cita. Abaixo estão as páginas que encontramos nessas duas camadas:
+A rede que geramos se limita a ```duas camadas``` de profundidade, ou seja, a primeira camada é a própria página de [carnabauis](https://pt.wikipedia.org/wiki/Carnaubais) e a segunda camada são as páginas que a página de [carnabauis](https://pt.wikipedia.org/wiki/Carnaubais) cita. Abaixo estão as páginas que encontramos nessas duas camadas:
 
 ```
 0 Carnaubais
@@ -97,7 +97,7 @@ Função Densidade acumulada (```CDF```):
 
 ![PDF](./cumulative_density_function.png)
 
-Ao analizar a ```CDF``` da rede, vemos que cerca de ==60% das páginas (nós) da rede possuem 10 ou menos páginas vizinhas==.
+Ao analizar a ```CDF``` da rede, vemos que cerca de *60% das páginas (nós) da rede possuem 10 ou menos páginas vizinhas*.
 
 ### Requisito 4
 ---
