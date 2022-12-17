@@ -14,7 +14,7 @@ Para rodar o arquivo ```atividade3U2.ipynb``` temos 2 opções:
  - Ativar o ambiente virtual com o comando ```./venv/Scripts/activate```
  - Após ativarmos o ambiente, basta rodar o comando ```pip install -r requirements.txt``` para instalar as dependências do projeto automaticamente
 
-## Video Explicativo do Projeto
+## Video Explicativo da primeira parte do Projeto
 
 Para a atividade, produzimos um video para descrever os resultados obtidos em nossos estudos e como ele foi realizado.Para acessar o video, basta clicar [aqui](https://drive.google.com/file/d/1F-gvBDnlAqdj57dAySGQRvHpFpePPI1O/view)
 
@@ -106,11 +106,53 @@ Também geramos uma imagem com vários gráficos das 4 métricas do requisito 2.
 ![ALL](./all.png)
 
 ### Requisito 5
----
 
 Por fim, geramos uma imagem com o núcleo (```core```) e casca (```shell```) da rede:
 
 ![core-shell](./k-core_sociopatterns.png)
+
+## Visualizações de análises de rede com Gephi
+
+Todas as análises e visualizações desenvolvidas até então foram feitas utilizando bibliotecas do *python*, porém, a partir de agora, iremos nos aproveitar do arquivo ```.graphml``` gerado anteriormente e visualizar a rede com ajuda da ferramenta ```gephi```.
+
+### Visualização da rede de forma iterativa
+---
+
+A primeira coisa que fizemos foi criar uma rede iterativa com o plugin ```SigmaExporter``` do gephi. Com este plugin, podemos gerar uma rede iterativa que pode ser acessada [aqui](https://pelean2812.github.io/data_structure2_netdeploy/network/). Abaixo está uma imagem do site com a rede iterativa:
+
+![RedeIterativa](./SigmaExporter.PNG)
+
+Para criar esta rede iterativa, inicialmente tentamos colorir os nós (página da wikipedia) de acordo com as *comunidades* que cada nó pertence. Porém, quando utilizamos o gephi para "calcular" as comunidades seja pela propriedade ```Modularity Class``` ou ```Inferred Class``` vemos que todos os nós são da mesma comunidade, logo eles ficariam pintados da mesma cor. As figuras abaixo mostram isso:
+
+![modularityClassGephi](./modularityClassGephi.PNG)
+
+![inferredClassGephi](./inferredClassGephi.PNG)
+
+Então, a métrica que utilizamos para colorir os nós da rede foi a ```In degree``` que mede a quantidade de vezes que uma página foi citada. Logo, os nós da mesma cor são os nós que possuem a mesma quantidade de citações. Como pode-se ver abaixo (e na rede iterativa [aqui](https://pelean2812.github.io/data_structure2_netdeploy/network/)), há 3 páginas que possuem a mesma cor (rosa), essas são páginas que tem 6 citações, há duas páginas com a cor azul, e enfim, basta visualizar a rede iterativa para ver quais são as páginas que pertecem a ao mesmo grupo de cores:
+
+![inDegreeGephi](./inDegreeGephi.PNG)
+
+### Análise da rede com a ferramenta Retina
+---
+
+Além da análise/aprimoramentos que fizemos na rede utilizando a ferramenta gephi, também fizemos uma análise da rede utilizando a ferramenta ```retina```. Nela, analisamos três parâmetros da rede: ```page rank```, ```in degree``` e ```betweness centrality```. Abaixo está um print da ferramenta sendo utilziada com a nossa rede:
+
+![retina](./retina.PNG)
+
+
+Neste [video](https://drive.google.com/file/d/1nwrlnNuCOGD810i7gx6n0N5VSkIM5OG1/view?usp=sharing) explicamos com maiores detalhes a análise que fizemos dessa rede utilizando a ferramenta retina.
+
+### Artes da rede geradas com o Gephisto
+---
+
+Por fim, criamos algumas artes da nossa rede utilizando a ferramenta ```gephisto```:
+
+![gephisto1](./gephisto1.png)
+
+De forma simplificada, a interpretação que podemos tirar da primeira arte acima é que quanto maior é o tamanho da bola, maior é a métrica ```Harmonic Closeness Centrality```, que é uma métrica que irá dizer o quão "próxima" uma página é da outra (só que de forma "normalizada"). Visualmente, as páginas que estão mais distantes de todas as outras da rede são as páginas *Regions of Brazil* e *Miniciplalities of Brazil*. Observe também que as páginas com o mesmo índice de clusterização estão circundadas com a mesma cor. (Maiores detalhes estão na própria legenda da imagem)
+![gephisto2](./gephisto2.png)
+
+De forma simplificada, a interpretação que podemos tirar dessa segunda arte é que quanto maior é o tamanho da bola, maior é a métrica ```degree```, que em uma rede dirigida, indica quantas vezes uma página foi citada ou cita outras páginas. Visualmente, a página do *Brazil* é a que mais tem citações. (Maiores detalhes estão na própria legenda da imagem)
 
 ### Referências
 Repositório de Algorítmos e Estruturas de dados II do Professor Ivanovitch [![Repository](https://img.shields.io/badge/-Repo-191A1B?style=flat-square&logo=github)](https://github.com/ivanovitchm/datastructure)
